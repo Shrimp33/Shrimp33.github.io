@@ -31,5 +31,7 @@ for img in resized:
 merged.save(OUTPUT_FILE)
 # Print the width of each image
 print('Width of each image:')
+sum=0
 for width, name in widths:
-    print(name, width)
+    print(name, width + sum)
+    sum += width
