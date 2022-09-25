@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>Blog Post 2</title>
+<html lang="en">
+    <!--Heading-->
+    <head>
+        <script src="load.js"></script>
+        <script src="template.js"></script>
+        <script> const index = 2; </script>
+        <link rel="stylesheet" href="template.css">
+    </head>
+    <!--Body-->
+    <body>
+        <div>
+            <h1 id="subject"> 8/7/2022: Today I tryed to draw a full person, but I couldn't figure out how to make the torso. </h1>
+            <div>
+                <img id="picA" src="imgs/002draft872022.png" align="center">
+                <label for="picA" id="captionA">My intial draft</label>
+            </div>
+            <div>
+                <img id="picB" src="imgs/002draw872022.png" align="center">
+                <label for="picB" id="captionB">My final-ish drawing</label>
+            </div>
+        </div>
+        <div>
+            <button id="prevB" onclick="load(index - 1)">Previous</button>
+            <button id="nextB" onclick="load(index + 1)">Next</button>
+            <button id="homeB" onclick="Home()">Home</button>
+        </div>
+    </body>
+</html>

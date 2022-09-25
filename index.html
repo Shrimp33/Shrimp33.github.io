@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<title>My own blog style website</title>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="blogs/load.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Landing Page -->
+        <div id="Title"> Welcome to My Website</div>
+        <div id="Landing">
+            <button type=button id="HomeB" onclick="About()"> Home</button>
+            <button type=button id="BlogB" onclick="Blog()"> Blog</button>
+            <button type=button id="ProjectsB" onclick="Projects()"> Projects</button>
+            <button type=button id="SocialsB" onclick="Socials()"> Socials</button>
+        </div>
+        <!-- Spacing -->
+        <div id="Spacer1">
+        </div>
+        <div id="content">
+            <!-- About Me -->
+            <div id="About">
+                <h1 id="pHeadA"> About Me</h1>
+                <hr style="width: 50%; margin-left: 10px; margin-bottom: 15px;" align="left">
+                <p1 id="pText1">I'll write something here when get less generic hobbies.</p1>
+            </div>
+            <!-- Blog -->
+            <div id="Blog" hidden>
+                <h1 id="pHeadB"> Blog</h1>
+                <hr style="width: 50%; margin-left: 10px; margin-bottom: 15px;" align="left">
+                <p1 id="pText2">Check out my various attempts at art and just random stuff that I post when I get bored.</p1>
+                <div id="Spacer2">
+                </div>
+                <div id="Scroller">
+                    <div id="clientsSlider"></div>
+                </div>
+                <div>
+                    <label id="pText3" for="search">Submit Blog Number To Navigate</label>
+                    <input type="text" id="search" class="search" placeholder="Search">
+                </div>
+            </div>
+            <!-- Projects -->
+            <div id="Projects" hidden>
+                <h1 id="pHeadC"> Projects</h1>
+                <hr style="width: 50%; margin-left: 10px; margin-bottom: 15px;" align="left">
+                <p1 id="pText4">I'll write something here when I actually make something.</p1>
+            </div>
+            <!-- Socials -->
+            <div id="Socials" hidden>
+                <h1 id="pHeadD"> Socials</h1>
+                <hr style="width: 50%; margin-left: 10px; margin-bottom: 15px;" align="left">
+                <div style="margin-bottom: 20px">
+                    <p1 id="pText5">Here is my github profile.</p1>
+                    <a id="GHlink" href='https://github.com/Shrimp33'> Github</a>
+                </div>
+                <div style="margin-bottom: 20px">
+                    <p1 id="pText6">I also have a youtube channel where I occasionally post content.</p1>
+                    <a id="YTlink" href='https://www.youtube.com/channel/UCgCoCLk1Q-YGMe7Eo6lHoXA')} catch {return}"> Youtube</a>
+                </div>
+    </body>
+</html>

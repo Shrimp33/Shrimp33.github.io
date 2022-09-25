@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<title>Blog Post 3</title>
+<html lang="en">
+    <!--Heading-->
+    <head>
+        <script src="load.js"></script>
+        <script src="template.js"></script>
+        <script> const index = 3; </script>
+        <link rel="stylesheet" href="template.css">
+    </head>
+    <!--Body-->
+    <body>
+        <div>
+            <h1 id="subject"> 9/24/2022: I decided to make a large overhaul of the website after not touching it for so long.</h1>
+            <div>
+                <img id="picA" src="imgs/003capybara.png" align="center">
+                <label for="picA" id="captionA">A little capybarar that I drew while rewriting this.</label>
+            </div>
+        </div>
+        <div>
+            <button id="prevB" onclick="load(index - 1)">Previous</button>
+            <button id="nextB" onclick="load(index + 1)">Next</button>
+            <button id="homeB" onclick="Home()">Home</button>
+        </div>
+    </body>
+</html>

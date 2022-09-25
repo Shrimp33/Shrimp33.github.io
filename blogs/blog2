@@ -14,14 +14,14 @@
             My intial draft
             <div>            
                 <canvas id="draft" width="0" height="0"></canvas>
-                <script>draw("draft", "draft872022.png", 0, 0, 505, 630);</script>
+                <script>draw("draft", "002draft872022.png", 0, 0, 505, 630);</script>
             </div>
         </p>
         <p>
             My final-ish drawing
             <div>
                 <canvas id="final" width="0" height="0"></canvas>
-                <script>draw("final", "draw872022.png", 0, 0, 500, 700);</script>
+                <script>draw("final", "002draw872022.png", 0, 0, 500, 700);</script>
             </div>
         </p>
 
@@ -29,5 +29,5 @@
     <div>
         <button onclick="load(get_blog_index() - 1)">Previous</button>
         <button onclick="load(get_blog_index() + 1)">Next</button>
-        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="Home()">Home</button>
 </html>

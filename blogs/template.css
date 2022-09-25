@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(69, 69, 69);
+}
+#subject {
+    font-family: "Arial";
+    font-size: 50px;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    align-self: left;
+}
+
+#prevB, #nextB, #homeB {
+    font-family: "Arial";
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgb(69, 69, 69);
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#prevB:hover, #nextB:hover, #homeB:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+#picA, #picB{
+    height: 512px;
+    width: auto;
+    margin: 10px;
+    border: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: double;
+    color: white;
+}
+
+#captionA, #captionB {
+    font-family: "Arial";
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgb(69, 69, 69);
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    align-self: left;
+}
