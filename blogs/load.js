@@ -58,5 +58,5 @@ function Projects() {
 }
 
 function Home() {
-    window.location.href = window.location.href.substring(0, window.location.href.indexOf("blog") + 4) + "/index.html";
+    window.location.href = window.location.href.substring(0, window.location.href.indexOf("blogs")) + "/index.html";
 }
