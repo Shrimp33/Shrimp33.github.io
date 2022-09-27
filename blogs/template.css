@@ -28,7 +28,7 @@ body {
     background-color: rgb(100, 100, 100);
 }
 
-#picA, #picB{
+#picA, #picB, #picC{
     height: 512px;
     width: auto;
     margin: 10px;
@@ -39,7 +39,22 @@ body {
     color: white;
 }
 
-#captionA, #captionB {
+#captionA, #captionB, #captionC {
+    font-family: "Arial";
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgb(69, 69, 69);
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    align-self: left;
+}
+.cdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: "Arial";
     font-size: 25px;
     color: #ffffff;

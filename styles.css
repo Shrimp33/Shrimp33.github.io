@@ -65,7 +65,7 @@ body {
 }
 
 /* Credits to https://stackoverflow.com/a/15662955 for the scrolling */
-#clientsSlider{
+#blogSlider{
     height: 256px;
     background: #e5e5e5 url("merged.png") repeat 0 center;
     margin: 20px;

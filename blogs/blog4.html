@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<title>Blog Post 4</title>
+<html lang="en">
+    <!--Heading-->
+    <head>
+        <script src="load.js"></script>
+        <script src="template.js"></script>
+        <script> const index = 4; </script>
+        <link rel="stylesheet" href="template.css">
+    </head>
+    <!--Body-->
+    <body>
+        <div>
+            <h1 id="subject"> 9/27/2022: I started to try translating some Chinese web novels.</h1>
+            <div>
+                <div class="cdiv">
+                    <label for="picA">This how much I started with.</label>
+                </div>
+                <img id="picA" src="imgs/Screenshot 2022-09-27 134449.png" align="center">
+            </div>
+            <div>
+                <div class="cdiv">
+                    <label for="picB">Then I got side tracked and started to make a translation toolkit to make it easier.</label>
+                </div>
+                <img id="picB" src="imgs/Screenshot 2022-09-27 134457.png" align="center">
+            <div>
+                <div class="cdiv">
+                    <label for="picC">Three days and over 10 hours of work later. I now have 0 progress and another project to deal with.</label>
+                    <label for="picC">I also made a new website for the toolkit.<a href="https://shrimp33.github.io/SinoShrimptk/">@SinoShrimptk</a>. No docs rightnow cause I'm too tired, but I'll add them soon. </label>
+                </div>
+                <img id="picC" src="imgs/Screenshot 2022-09-27 134426.png" align="center">
+            </div>
+        </div>
+        <div>
+            <button id="prevB" onclick="load(index - 1)">Previous</button>
+            <button id="nextB" onclick="load(index + 1)">Next</button>
+            <button id="homeB" onclick="Home()">Home</button>
+        </div>
+    </body>
+</html>
