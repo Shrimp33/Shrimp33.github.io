@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<title>Blog Post 5</title>
+<html lang="en">
+    <!--Heading-->
+    <head>
+        <script src="load.js"></script>
+        <script src="template.js"></script>
+        <script> const index = 5; </script>
+        <link rel="stylesheet" href="template.css">
+    </head>
+    <!--Body-->
+    <body>
+        <div>
+            <h1 id="subject"> 10/29/2022: After a month long hiatus, I got back to drawing again. </h1>
+            <div>
+                <img id="picA" src="imgs/005Eve0x3F.png" align="center">
+                <label for="picA" id="captionA">I drew a quick sketch</label>
+            </div>
+        </div>
+        <div>
+            <button id="prevB" onclick="load(index - 1)">Previous</button>
+            <button id="nextB" onclick="load(index + 1)">Next</button>
+            <button id="homeB" onclick="Home()">Home</button>
+        </div>
+    </body>
+</html>

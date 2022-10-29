@@ -1,4 +1,4 @@
-const max = 4;
+const max = 5;
 function getmax() {
     return max;
 }

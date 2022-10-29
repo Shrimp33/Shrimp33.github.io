@@ -9,8 +9,8 @@ INPUT_DIR = 'blogs/imgs'
 # Storage
 resized = []
 widths = []
-# Get all files in the directory if ending with .png
-files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.' + IMAGE_FORMAT)]
+# Get all files in the directory if ending with .png and starts with a number in 000 format
+files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.png') and f[0:3].isdigit()]
 # Resize all images to 256 height while keeping aspect ratio
 for image in files:
     img = Image.open(os.path.join(INPUT_DIR, image))

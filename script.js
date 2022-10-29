@@ -10,10 +10,11 @@ function slide(){
 setTimeout(slide, 1000);  // I DON'T KNOW WHY, BUT IF THERE'S NO TIMEOUT, IT DOESN'T WORK
 
 function imgtoidb(posx) {
-    var truex = posx % 1016
+    var truex = posx % 1197
     if (truex < 180) return 1;
     if (truex < 565) return 2;
     if (truex < 1016) return 3;
+    if (truex < 1197) return 5;
 }
 
 $(document).ready(function(event) {
