@@ -21,12 +21,12 @@ $(document).ready(function(event) {
     $("#blogSlider").click(function(event) {
         var redirect = window.confirm("Do You Want to Access At Blog #" + imgtoidb(pos + event.pageX - 25));
         if (redirect) {
-            load(imgtoidb(pos + event.pageX - 25));
+            load(imgtoidb(pos + event.pageX - 25) - 1, 1);
         }
     });
     $("#search").keydown(function(event) {
         if (event.keyCode == 13){
-            load($("#search").val());
+            load($("#search").val() - 1, 1);
         }
     });
 });

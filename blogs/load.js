@@ -10,7 +10,6 @@ function inval() {
 
 function load(index, sign) {
     index += sign;
-    console.log(index);
     if (index > 0 && index <= getmax()) {
         if (hidden.includes(index)) {
             (window.confirm("This blog is hidden, please try another page, press OK to skip or Cancel to stay")) ? load(index, sign) : null;
