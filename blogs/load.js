@@ -1,4 +1,5 @@
-const max = 5;
+const max = 6;
+const hidden = [5];  // I want to hide blog 5, it is a blemish on my career
 function getmax() {
     return max;
 }
@@ -7,8 +8,14 @@ function inval() {
     alert("Invalid page number, please try pages 1 to " + getmax());
 }
 
-function load(index) {
+function load(index, sign) {
+    index += sign;
+    console.log(index);
     if (index > 0 && index <= getmax()) {
+        if (hidden.includes(index)) {
+            (window.confirm("This blog is hidden, please try another page, press OK to skip or Cancel to stay")) ? load(index, sign) : null;
+            return;
+        }
         // If curr dir is /blogs, no need to add /blogs to the path
         if (window.location.href.indexOf("blogs") > -1) {
             window.location.href = "blog" + index + ".html";
